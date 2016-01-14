@@ -1,0 +1,99 @@
+ant:
+<ant>
+  <mkdir dir="/Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_redistribution" />
+  <mkdir dir="/Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_testing" />
+  <mkdir dir="/Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_redistribution_files_only" />
+</ant>
+mcc -o idBee -W main:idBee -T link:exe -d /Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_testing -v /Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/BeeIdUserInterface_forMeeting.m -a /Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/LabeledBees -a /Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/number.jpg 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path
+"/Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW" to Compiler path
+instance.] 
+Parsing file "/Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/BeeIdUserInterface_forMeeting.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 72 temporary MEX authorization files.
+Removing: '/tmp/0341bzORfU1_13339.auth'.
+Removing: '/tmp/0341bzFSmYI_13339.auth'.
+Removing: '/tmp/0341bHDvR7y_13339.auth'.
+Removing: '/tmp/0341b30K9BJ_13339.auth'.
+Removing: '/tmp/0341bldWUjj_13339.auth'.
+Removing: '/tmp/0341ba8SnRX_13339.auth'.
+Removing: '/tmp/0341biHhtql_13339.auth'.
+Removing: '/tmp/0341buLhosj_13339.auth'.
+Removing: '/tmp/0341bksP9Ya_13339.auth'.
+Removing: '/tmp/0341b3AnPF5_13339.auth'.
+Removing: '/tmp/0341bWJEI6F_13339.auth'.
+Removing: '/tmp/0341bmzFDDl_13339.auth'.
+Removing: '/tmp/0341bH90doh_13339.auth'.
+Removing: '/tmp/0341bSMVR67_13339.auth'.
+Removing: '/tmp/0341bYJbTFA_13339.auth'.
+Removing: '/tmp/0341bagrbG9_13339.auth'.
+Removing: '/tmp/0341bZsk8HF_13339.auth'.
+Removing: '/tmp/0341bidbgmR_13339.auth'.
+Removing: '/tmp/0341bOZRgmS_13339.auth'.
+Removing: '/tmp/0341bGtEXcg_13339.auth'.
+Removing: '/tmp/0341bGYYis4_13339.auth'.
+Removing: '/tmp/0341b04ZyFo_13339.auth'.
+Removing: '/tmp/0341bJedYN8_13339.auth'.
+Removing: '/tmp/0341bIRA9k6_13339.auth'.
+Removing: '/tmp/0341bNf4Bvj_13339.auth'.
+Removing: '/tmp/0341brWSX32_13339.auth'.
+Removing: '/tmp/0341bufqJE6_13339.auth'.
+Removing: '/tmp/0341bs8tWk0_13339.auth'.
+Removing: '/tmp/0341bU1zjUJ_13339.auth'.
+Removing: '/tmp/0341blvVksu_13339.auth'.
+Removing: '/tmp/0341bQzcN4q_13339.auth'.
+Removing: '/tmp/0341b15Hdmo_13339.auth'.
+Removing: '/tmp/0341bh9YZkb_13339.auth'.
+Removing: '/tmp/0341bwD1ZvV_13339.auth'.
+Removing: '/tmp/0341bbHALlT_13339.auth'.
+Removing: '/tmp/0341b3hn7DM_13339.auth'.
+Removing: '/tmp/0341bFyV444_13339.auth'.
+Removing: '/tmp/0341baOgcFV_13339.auth'.
+Removing: '/tmp/0341btjdISM_13339.auth'.
+Removing: '/tmp/0341b0vnr6o_13339.auth'.
+Removing: '/tmp/0341bEKrDoN_13339.auth'.
+Removing: '/tmp/0341b0lwa2P_13339.auth'.
+Removing: '/tmp/0341b4MLzKC_13339.auth'.
+Removing: '/tmp/0341bgbQAxY_13339.auth'.
+Removing: '/tmp/0341bnK6L2z_13339.auth'.
+Removing: '/tmp/0341bx2ZOoH_13339.auth'.
+Removing: '/tmp/0341bun1mu3_13339.auth'.
+Removing: '/tmp/0341baYeamG_13339.auth'.
+Removing: '/tmp/0341bUptGQc_13339.auth'.
+Removing: '/tmp/0341bKQFEHB_13339.auth'.
+Removing: '/tmp/0341b0xtREx_13339.auth'.
+Removing: '/tmp/0341bLtK8vT_13339.auth'.
+Removing: '/tmp/0341bK5upaH_13339.auth'.
+Removing: '/tmp/0341bUJVwg0_13339.auth'.
+Removing: '/tmp/0341bw8IiQG_13339.auth'.
+Removing: '/tmp/0341bjnMT6H_13339.auth'.
+Removing: '/tmp/0341bZX250S_13339.auth'.
+Removing: '/tmp/0341bi68i4x_13339.auth'.
+Removing: '/tmp/0341bzw0zCM_13339.auth'.
+Removing: '/tmp/0341bWpbVqD_13339.auth'.
+Removing: '/tmp/0341bp9SRyk_13339.auth'.
+Removing: '/tmp/0341bQqH1jQ_13339.auth'.
+Removing: '/tmp/0341bvpbxcJ_13339.auth'.
+Removing: '/tmp/0341bFm5TBL_13339.auth'.
+Removing: '/tmp/0341bI5O3gW_13339.auth'.
+Removing: '/tmp/0341bbb4kG2_13339.auth'.
+Removing: '/tmp/0341byzduun_13339.auth'.
+Removing: '/tmp/0341bqMbAyC_13339.auth'.
+Removing: '/tmp/0341bsfToZs_13339.auth'.
+Removing: '/tmp/0341bLPm97i_13339.auth'.
+Removing: '/tmp/0341byjAU2a_13339.auth'.
+Removing: '/tmp/0341b1NbdxO_13339.auth'.
+Generating file "/Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_testing/readme.txt".
+Generating file "/Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_testing/run_idBee.sh".
+Packaging...
+Adding custom icon /Applications/MATLAB_R2015a.app/toolbox/compiler/Resources/default_icon.icns to /Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_testing/idBee.app.
+Creating the bundle...
+Copying /Applications/MATLAB_R2015a.app/toolbox/compiler/maci64/setup.app to /Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_redistribution/MyAppInstaller_web.app.
+Copying /Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_redistribution/bundle.zip to /Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_redistribution/MyAppInstaller_web.app/Contents/Resources/bundle.zip.
+Copying /var/folders/d1/lm3gd_f166z76j2x49_m154h0000gn/T/splash1211476428773531318.tmp to /Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_redistribution/MyAppInstaller_web.app/Contents/Resources/splash.png.
+Copying /Applications/MATLAB_R2015a.app/toolbox/compiler/Resources/default_icon.icns to /Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_redistribution/MyAppInstaller_web.app/Contents/Resources/installer.icns.
+Web based installer created at /Users/Emad/Desktop/Projects/BeeID/beeWingsChris/demos/NEW/idBee/for_redistribution/MyAppInstaller_web.app.
+Packaging complete.
+Elapsed packaging time was: 1 minutes and 10 seconds.
